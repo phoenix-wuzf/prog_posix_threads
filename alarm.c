@@ -14,6 +14,7 @@ int main (int argc, char *argv[])
     char line[128];
     char message[64];
 
+    printf("branch test, hello world");
     while (1) {
         printf ("Alarm> ");
         if (fgets (line, sizeof (line), stdin) == NULL) exit (0);
